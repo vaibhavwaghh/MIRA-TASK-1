@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Volume Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="converter">
+      <h1>Liters to Gallons Converter</h1>
+      <form id="converterForm1">
+        <div class="input-group">
+          <label for="liters">Liters:</label>
+          <input type="text" id="liters" name="liters" />
+          <span class="error" id="litersError"></span>
+        </div>
+        <div class="input-group">
+          <label for="gallons">Gallons:</label>
+          <input type="text" id="gallons" name="gallons" readonly />
+          <span class="error" id="gallonsError"></span>
+        </div>
+        <button type="submit">Convert</button>
+      </form>
+
+      <h1>Gallons to Liters Converter</h1>
+      <form id="converterForm2">
+        <div class="input-group">
+          <label for="gallons2">Gallons:</label>
+          <input type="text" id="gallons2" name="gallons2" />
+          <span class="error" id="gallons2Error"></span>
+        </div>
+        <div class="input-group">
+          <label for="liters2">Liters:</label>
+          <input type="text" id="liters2" name="liters2" readonly />
+          <span class="error" id="liters2Error"></span>
+        </div>
+        <button type="submit">Convert</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
